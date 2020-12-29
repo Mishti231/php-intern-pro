@@ -71,6 +71,6 @@ if (isset($_POST['submit'])) {
         header('Location:index.php');
     } else {
         $_SESSION['msg'] = "Error while submitting query";
-        header('Location:contact.php');
+        header('Location:index.php');
     }
 }
